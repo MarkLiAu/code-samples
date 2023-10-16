@@ -1,4 +1,4 @@
-namespace DotNetWebApi_01_HttpBasc
+namespace DotNetWebApi_01_HttpBasic
 {
     public class WeatherForecast
     {
