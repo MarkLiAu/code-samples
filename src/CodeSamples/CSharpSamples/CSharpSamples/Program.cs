@@ -2,5 +2,7 @@
 using CSharpSamples;
 
 Console.WriteLine("Hello, World!");
-StringInterpolationSamples.RunSamples();
-RecordsSamples.RunSamples();
+//StringInterpolationSamples.RunSamples();
+//RecordsSamples.RunSamples();
+
+YieldStatement.RunSample(); 
