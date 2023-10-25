@@ -36,6 +36,9 @@ namespace CSharpSamples
         public static void DisplayWith()
         {
             Point p1 = new NamedPoint("A", 1, 2) { Zbase = 3, Zderived = 4 };
+            Console.WriteLine(p1);
+            Console.WriteLine(p1 is Point); 
+            Console.WriteLine(p1 is NamedPoint); 
 
             Point p2 = p1 with { X = 5, Y = 6, Zbase = 7 }; // Can't set Name or Zderived
             Console.WriteLine(p2 is NamedPoint);  // output: True

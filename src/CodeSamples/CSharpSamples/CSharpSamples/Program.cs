@@ -5,4 +5,7 @@ Console.WriteLine("Hello, World!");
 //StringInterpolationSamples.RunSamples();
 //RecordsSamples.RunSamples();
 
-YieldStatement.RunSample(); 
+// YieldStatement.RunSample(); 
+
+LinqSamples.RunSample();
+
