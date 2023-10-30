@@ -9,3 +9,5 @@ Console.WriteLine("Hello, World!");
 
 LinqSamples.RunSample();
 
+//ParallelTasks.RunSample(args);
+

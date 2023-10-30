@@ -25,6 +25,7 @@ namespace CSharpSamples
             new Student("fname4", "lname4", 23, new double[] {66,77,94,90}),
             new Student("fname5", "lname5", 23, new double[] {86,77,95,90}),
             new Student("fname6", "lname6", 22, new double[] {79,77,96,90}),
+            new Student("fname6", "lname6", 22, new double[] {79,77,96,90}),
         };
 
         static void GroupBySample1()
@@ -38,6 +39,7 @@ namespace CSharpSamples
                     Console.WriteLine(d);
                 }
             }
+
         }
         static void GroupBySample2()
         {
@@ -58,6 +60,9 @@ namespace CSharpSamples
 
         public static void GroupByEx4()
         {
+            string[] list1 = { "aa", "bb" };
+            var hashset1 = Students.ToHashSet();
+
             // Create a list of pets.
             List<Pet> petsList =
                 new List<Pet>{ new Pet { Name="Barley", Age=8.3 },
